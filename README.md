@@ -1,5 +1,8 @@
 This repository contains the code for reconstructing brain activity patterns as described in the paper [Pang et al. 2023, Nature](https://www.nature.com/articles/s41586-023-06098-1).
 
+We also test parcel- and parcel+connectome-based basis vectors in addition to the eigenmodes provided by Pang et al.
+In addition, randomzied task data (spin permutation and Moran randomization) is also tested. 
+
 ## Requirements
 - MATLAB 2021a or later (we use statistical abd parallel toolboxes)
 - [BrainSpace](https://brainspace.readthedocs.io/en/latest/index.html)
